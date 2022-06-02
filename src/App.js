@@ -2,6 +2,7 @@ import './App.css';
 import theJedsLogo from './images/Logo-TheJeds.png';
 import Button from './components/Button';
 import Screen from './components/Screen';
+import ButtonClear from './components/ButtonClear';
 
 function App() {
   return (
@@ -39,7 +40,9 @@ function App() {
           <Button>/</Button>
         </div>
           
-        <div className='fila'></div>
+        <div className='fila'>
+          <ButtonClear>Clear</ButtonClear>
+        </div>
       </div>
     </div>
   );
